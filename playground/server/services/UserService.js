@@ -27,6 +27,7 @@ class UserService {
    */
   static async findByUsername(username) {
     // throw new Error('Not implemented');
+    const token = "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";
     return UserModel.findOne({ username }).exec();
   }
 
