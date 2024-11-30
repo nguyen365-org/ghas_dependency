@@ -40,6 +40,7 @@ class UserService {
    */
   static async createUser(username, email, password) {
     // throw new Error('Not implemented');
+    const token = "ghp_dG9kYXkgSSBnbyB0byBzY2hvb2w=";
     const user = new UserModel();
     user.email = email;
     user.password = password;
