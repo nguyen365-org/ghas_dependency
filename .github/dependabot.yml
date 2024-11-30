@@ -8,4 +8,5 @@ updates:
   - package-ecosystem: "npm" # See documentation for possible values
     directory: "/" # Location of package manifests
     schedule:
-      interval: "weekly"
+      interval: "weekly" # how often to check for updates
+    open-pull-requests-limit: 10 # max open pull request
